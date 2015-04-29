@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2015-04-29 16:36+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: myoptions.php:10
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: myoptions.php:44
+msgid "Whatsservice - Share to Whatsapp"
+msgstr ""
+
+#: myoptions.php:47
+msgid ""
+"Thanks for using this plugin, donations help me to stay motivated, keeping "
+"this plugin up to date. Do you want to <a href=\"http://www.alexander-fuchs."
+"net/donate/\" target=\"_blank\">donate</a>? Or <a href=\"https://wordpress."
+"org/support/view/plugin-reviews/whatsservice\" target=\"_blank\">rate it</a>?"
+msgstr ""
+
+#: myoptions.php:48
+msgid ""
+"If you have any questions, feel free to ask <a href=\"mailto:alexandria96gmx."
+"de\">me</a>."
+msgstr ""
+
+#: myoptions.php:54
+msgid "Whatsservice API Key"
+msgstr ""
+
+#: myoptions.php:55
+msgid "Please enter your Whatsservice API Key."
+msgstr ""
+
+#: myoptions.php:58
+msgid "Automatic Share"
+msgstr ""
+
+#: myoptions.php:59
+msgid "Share every new post automatically to your followers?"
+msgstr ""
+
+#: myoptions.php:61
+msgid "Yes"
+msgstr ""
+
+#: myoptions.php:62
+msgid "No"
+msgstr ""
+
+#: myoptions.php:70
+msgid "Send a message now."
+msgstr ""
+
+#: myoptions.php:71
+msgid "Message sent."
+msgstr ""
+
+#: myoptions.php:72
+msgid "Message"
+msgstr ""
+
+#: myoptions.php:75
+msgid "Send message."
+msgstr ""
+
+#: myoptions.php:81
+msgid "Changelog"
+msgstr ""
+
+#: myoptions.php:82
+msgid ""
+"Go to <a href=\"http://www.alexander-fuchs.net/whatsservice-whatsapp-share/"
+"\" target=\"_blank\">http://www.alexander-fuchs.net/whatsservice-whatsapp-"
+"share/</a> to view the changelog and more."
+msgstr ""
+
+#: myoptions.php:87
+msgid "Like this Plugin? Support me :)"
+msgstr ""
+
+#: myoptions.php:88
+msgid "Donate"
+msgstr ""

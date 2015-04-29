@@ -44,7 +44,7 @@ function whatsservice_options() {
 <h1><?php _e('Whatsservice - Share to Whatsapp');?></h1>
 <div id="sm_basic_options" class="postbox">
 				<div class="inside">
-					<strong><p><?php _e('Thanks for using this plugin, donations help me to stay motivated, keeping this plugin up to date. Do you want to <a href="http://www.alexander-fuchs.net/donate/" target="_blank">donate</a>? Or <a href="https://wordpress.org/support/view/plugin-reviews/whatsservice" target="_blank">rate it</a>?');?></p></strong>
+					<strong><p><?php _e('Thanks for using this plugin, donations help me to stay motivated, keeping this plugin up to date. Do you want to <a href="http://www.alexander-fuchs.net/donate/" target="_blank">donate</a>? Or <a href="https://wordpress.org/plugins/whatsservice-share-to-whatsapp" target="_blank">rate it</a>?');?></p></strong>
 					<p><?php _e('If you have any questions, feel free to ask <a href="mailto:alexandria96gmx.de">me</a>.', 'whatsservice'); ?></p>
 					<div style="clear:right;"></div>
 				</div>
@@ -86,7 +86,7 @@ function whatsservice_options() {
 				<div class="inside">
 <h2><?php _e('Like this Plugin? Support me :)', 'whatsservice')?></h2>
 <h3><?php _e('Donate', 'whatsservice')?></h3>
-<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<p><form action="http://www.alexander-fuchs.net/donate/" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="VXCVDFMDZCX78">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">

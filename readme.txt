@@ -22,7 +22,7 @@ This Plugin makes use of the Whatsservice Api to share your new posts automatica
 </div>
 
 <div>
-  You can get more infos on what service is on <a href="https://www.whatsservice.de/" target="_blank" title="Whatsservice">https://www.whatsservice.de/</a>
+  You can get more infos on what service is on <a href="https://www.whatsservice.de/" target="_blank" title="Whatsservice">https://www.whatsservice.de/</a>
 </div>
 
 <div>
@@ -58,7 +58,7 @@ This Plugin makes use of the Whatsservice Api to share your new posts automatica
 </div>
 
 <div>
-  You can find their TOS here: <a href="https://www.whatsservice.de/agb/" target="_blank">https://www.whatsservice.de/agb/</a>
+  You can find their TOS here: <a href="https://www.whatsservice.de/agb/" target="_blank">https://www.whatsservice.de/agb/</a>
 </div>
 
 == Installation ==
@@ -70,7 +70,6 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 You need an Whatsservice Api Key to use this plugin, you can get it after logging in under the settings menu. Just click get Api Key.
 
- 
 == Screenshots ==
 1. This is the Settingsscreen
 
