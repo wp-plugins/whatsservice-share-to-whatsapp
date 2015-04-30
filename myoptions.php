@@ -7,7 +7,7 @@ function whatsservice_menu() {
 /** Step 3. */
 function whatsservice_options() {
 	if ( !current_user_can( 'manage_options' ) )  {
-		wp_die( __( __('You do not have sufficient permissions to access this page.', 'whatsservice') ) );
+		wp_die( __('You do not have sufficient permissions to access this page.', 'whatsservice')  );
 	}
 	
 	if(isset($_POST['whatsservice_key']))

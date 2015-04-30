@@ -12,7 +12,6 @@
 /* Copyright 2014 Alexander Fuchs (email : Alexander-fuchs@hotmail.com) This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 2, as published by the Free Software Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA */
 
 
-
 //includes
 require 'myoptions.php';
 
@@ -38,7 +37,7 @@ function whatsservice_auto_publish( $ID, $post ) {
 
 
 //init
-add_action( 'plugins_loaded', 'init_textdomain' );
+add_action( 'plugins_loaded', 'whatsservice_init_textdomain' );
 add_action( 'admin_menu', 'whatsservice_menu' );
 
 if(get_option('whatsservice_auto_publish',1) == 0)
@@ -46,11 +45,11 @@ if(get_option('whatsservice_auto_publish',1) == 0)
 	add_action( 'publish_post', 'whatsservice_auto_publish', 10, 2 );
 }
 
-function init_textdomain()
+function whatsservice_init_textdomain()
 {
 //Localization
-$loaded = load_plugin_textdomain('whatsservice', false, plugin_dir_path( __FILE__ )  . 'languages/' );
-
+load_plugin_textdomain('whatsservice', false
+			       , dirname(plugin_basename(__FILE__)));
 }
 
 ?>
