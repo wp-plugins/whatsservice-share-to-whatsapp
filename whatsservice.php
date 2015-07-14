@@ -18,20 +18,30 @@ require 'myoptions.php';
 
 //autopublish
 function whatsservice_auto_publish( $ID, $post ) {
-    $title = $post->post_title;
-    $permalink = get_permalink( $ID );
-    $ch = curl_init();
-	$data = array( 'pkey' => get_option('whatsservice_key'),
-       'msg' => array($title."\n".$permalink,'text')
-      );
-	$data = http_build_query($data);
-	curl_setopt($ch, CURLOPT_URL,'https://www.wss.li/api/');
-	curl_setopt($ch, CURLOPT_POST, 1);
-	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-	curl_setopt($ch, CURLOPT_TIMEOUT, 30);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-	$content = curl_exec($ch);
-	$result = json_decode($content);
+	echo ("<script>console.log(".$_POST['original_post_status']."_".$_POST['post_status'].")</script>");
+	//echo ($_POST['original_post_status']."_".$_POST['post_status']);
+	if( ( $_POST['post_status'] == 'publish' ) && ( $_POST['original_post_status'] != 'publish' ) ) {
+		echo ("<script>console.log(published)</script>");
+		//echo ("published");
+		$title = $post->post_title;
+		$permalink = get_permalink( $ID );
+		$ch = curl_init();
+		$data = array( 'pkey' => get_option('whatsservice_key'),
+		'msg' => array($title."\n".$permalink,'text')
+		);
+		$data = http_build_query($data);
+		curl_setopt($ch, CURLOPT_URL,'https://www.wss.li/api/');
+		curl_setopt($ch, CURLOPT_POST, 1);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+		curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		$content = curl_exec($ch);
+		$result = json_decode($content);
+
+	}
+
+
+    
 }
 
 
